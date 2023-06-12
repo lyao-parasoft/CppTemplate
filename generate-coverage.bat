@@ -18,4 +18,4 @@ divider_tests.exe
 
 
 cd "../cpptest-coverage/%PROJECT_NAME%"
-cpptestcli -config "builtin://Coverage" -settings "../../../conf/localsettings.properties" -input "%PROJECT_NAME%.clog" -report "../../reports/cpptest-std/ut"
+cpptestcli -config "builtin://Coverage" -settings "../../../conf/localsettings.properties" -input "%PROJECT_NAME%.clog" -report "../../reports/cpptest-std/ut" -publish
