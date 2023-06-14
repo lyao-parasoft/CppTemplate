@@ -6,7 +6,6 @@ set "Path=%CPPTEST_STD_HOME%;%MINGW_HOME%;%CMKAE_HOME%;%Path%"
 set "PROJECT_NAME=cpp-project-template"
 set "BUILD_DIR=build"
 
-cd cppprojecttemplate
 rmdir /s /q "%BUILD_DIR%"
 mkdir "%BUILD_DIR%"
 cd "%BUILD_DIR%"
