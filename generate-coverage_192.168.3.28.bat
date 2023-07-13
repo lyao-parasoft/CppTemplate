@@ -1,7 +1,8 @@
 @echo off
 
 rem Cygwin: `cmd /c generate-coverage_192.168.3.28.bat`
-rem Git Bash/CMD: `generate-coverage_192.168.3.28.bat`
+rem CMD: `generate-coverage_192.168.3.28.bat`
+rem Git Bash: `./generate-coverage_192.168.3.28.bat`
 rem PowerShell: `.\generate-coverage_192.168.3.28.bat`
 
 rem "Set environment varibles"
