@@ -49,8 +49,7 @@ TEST_F(DividerTest, Long_DivideBy_Long) {
 }
 
 TEST_F(DividerTest, 16_DivideBy_18) {
-  std::cout << "QA: This is a test" << std::endl;
-  std::cout << "hello，this test for parasoft-findings plugin in Jenkins" << std::endl;
+
   verify(5);
 }
 
