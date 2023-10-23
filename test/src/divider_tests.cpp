@@ -48,6 +48,10 @@ TEST_F(DividerTest, Long_DivideBy_Long) {
   verify(3);
 }
 
+TEST_F(DividerTest, 16_DivideBy_18) {
+  verify(5);
+}
+
 TEST_F(DividerTest, DivisionByZero) {
   Division d = Division(Fraction{1, 0});
   try {
